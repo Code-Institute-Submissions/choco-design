@@ -1,10 +1,26 @@
-
 /* ##### GENERAL STYLES AND TYPOGRAPHY ##### */
 
 * {
     margin: 0;
     padding: 0;
 }
+
+.btn {
+  display: inline-block;
+  background-color: #FFDCBB;
+  color: #2B1E18;
+  border: 2px solid #2B1E18;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s
+}
+
+.btn:hover {
+  background-color: #2B1E18;
+  color: #FFDCBB;
+}
+
+
 
 /* ##### NAVBAR ##### */
 
