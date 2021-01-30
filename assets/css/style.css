@@ -1,1 +1,45 @@
-/* Choco-Design styles */
+
+/* ##### GENERAL STYLES AND TYPOGRAPHY ##### */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ##### NAVBAR ##### */
+
+navbar {
+  background-color: #2B1E18;
+  color: #FFDCBB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  background: url("../images/logo-transparent.gif") no-repeat center;
+  background-size: cover;
+  height: 67px;
+  width: 111px;
+  margin: 5px;
+}
+
+.navbar-items {
+  display: flex;
+}
+
+.navbar-items li {
+  list-style: none;
+  text-align: center;
+  width: 70px;
+  margin: 0 5px;
+}
+
+.navbar-items a{
+  color: #FFDCBB;
+  transition: 0.2s;
+}
+
+.navbar-items a:hover {
+  font-weight: bold;
+}
