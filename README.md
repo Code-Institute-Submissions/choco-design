@@ -1,45 +1,33 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Choco - Design Website
 
-Welcome USER_NAME,
+This website is part of my 1st milestone project in Coding Institute's Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## User Experience (UX)
 
-## Gitpod Reminders
+### User stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### 1. First Time Visitor Goals
 
-`python3 -m http.server`
+* As a First Time Visitor, I want to easily understand the main purpose of the site and what is company's main objective.
 
-A blue button should appear to click: *Make Public*,
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-Another blue button should appear to click: *Open Browser*.
+* As a First Time Visitor, I want to find out more about the products which are for sale.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a First Time Visitor, I want to find out more about the company and also I want to locate their social media links to see their followings and to determine how trusted and known they are.
 
-A blue button should appear to click: *Make Public*,
+#### 2. Returning Visitor Goals
 
-Another blue button should appear to click: *Open Browser*.
+* As a Returning Visitor, I want to find photo gallery with all products offered by company.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* As a Returning Visitor, I want to find the best way to get in contact with the the company with any enquiries I may have.
 
-## Updates Since The Instructional Video
+#### 3. Frequent User Goals
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Wireframes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+* [Mobile view](wireframes/wireframes-mobile.pdf)
+* [Tablet view](wireframes/wireframes-tablet.pdf)
+* [Desktop view](wireframes/wireframes-desktop.pdf)
