@@ -1,5 +1,7 @@
 # Choco - Design Website
 
+[Click for live website demo](https://bencheee.github.io/choco-design/)
+
 This website is part of my 1st milestone project in Coding Institute's Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
 
 ## User Experience (UX)
@@ -31,3 +33,38 @@ This website is part of my 1st milestone project in Coding Institute's Full Stac
 * [Mobile view](wireframes/wireframes-mobile.pdf)
 * [Tablet view](wireframes/wireframes-tablet.pdf)
 * [Desktop view](wireframes/wireframes-desktop.pdf)
+
+## Design
+
+### Colour Scheme
+
+The two main colours used are dark chocolate brown (#2b1e18) and creamy beige (#ffdcbb).
+
+## Technologies Used
+
+### Languages Used
+
+* HTML5
+* CSS3 
+
+### Frameworks, Libraries & Programs Used
+
+* Gitpod
+
+Gitpod was used to write all the HTML and CSS code for the website.
+
+* Git
+
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+* GitHub
+
+GitHub is used to store the projects code after being pushed from Git.
+
+* Hatchful logo maker
+
+Hatchful is free online logo generator which was used to create logo for the company which is used on the website.
+
+* Balsamiq
+
+Balsamiq was used to create the wireframes during the design process.
