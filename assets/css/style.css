@@ -161,3 +161,21 @@ hr {
   height: 1px;
   margin-top: 10px; 
 }
+
+/* ##### FOOTER ##### */
+
+footer {
+  background-color: #FFDCBB;
+  color: #2B1E18;
+  text-align: center;
+  padding: 5px;
+}
+
+footer a {
+  color: #2B1E18;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  color: #FFDCBB;
+}
