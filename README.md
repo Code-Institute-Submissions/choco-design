@@ -44,6 +44,10 @@ The two main colours used are dark chocolate brown (#2b1e18) and creamy beige (#
 
 The large, banner images are showing different types of chocolate products with colors matching site's colour scheme. Purpose of images is to give clear idea of the purpose of the site and to also make it visually attractive.
 
+### Typography
+
+The Thasadith font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. On some of the headings there is combination of Commissioner and Euphoria Script fonts with Sans Serif as the fallback font.
+
 ## Technologies Used
 
 ### Languages Used
@@ -81,10 +85,14 @@ Photopea is free online photo editor which was used to resize and optimize logo 
 
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
+* Google Fonts
+
+Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria Script' fonts into the style.css file which is used on all pages throughout the project.
+
 ## Credits
 
 ### Media 
-
+-
 * All banner images are licence free and downloaded from [Unsplash.com](https://unsplash.com/)
 
 ### Acknowledgements
