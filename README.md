@@ -92,8 +92,10 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
 ## Credits
 
 ### Media 
--
+
 * All banner images are licence free and downloaded from [Unsplash.com](https://unsplash.com/)
+
+* Photos used in gallery section are property of Marina Prijatelj and were used with author's permission. Photos are downloaded from website [cokolada.hr](http://www.cokolada.hr/)
 
 ### Acknowledgements
 
