@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600&family=Euphoria+Script&family=Thasadith:wght@400;600;800&display=swap');
+
 /* ##### GENERAL STYLES AND TYPOGRAPHY ##### */
 
 * {
@@ -24,6 +26,36 @@ body {
   color: #FFDCBB;
 }
 
+/* # Fonts # */
+
+h1,
+h2,
+p {
+  font-family: "Thasadith", sans-serif;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: "Euphoria Script", sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  font-family: "Commissioner", sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+i {
+  font-size: 1.6rem;
+}
 
 
 /* ##### NAVBAR ##### */
@@ -63,6 +95,7 @@ navbar {
 .navbar-items a:hover {
   font-weight: bold;
 }
+
 
 /* ##### BANNER ##### */
 
@@ -121,6 +154,7 @@ navbar {
   bottom: 0;
 }
 
+
 /* ##### MAIN CONTENT ##### */
 
 .content {
@@ -161,6 +195,7 @@ hr {
   height: 1px;
   margin-top: 10px; 
 }
+
 
 /* ##### FOOTER ##### */
 
