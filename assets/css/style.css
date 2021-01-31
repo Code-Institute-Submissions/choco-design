@@ -120,6 +120,12 @@ navbar {
   padding: 20px 0;
 }
 
+.banner-title p:last-of-type {
+    margin: 10px 0 5px 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
 /* # Banner image section # */
 
 .banner-bg {
@@ -193,7 +199,7 @@ hr {
   background: #ffdccb4d;
   border: 0;
   height: 1px;
-  margin-top: 10px; 
+  margin: 10px 0 10px 0; 
 }
 
 
@@ -207,10 +213,16 @@ footer {
 }
 
 footer a {
+  display: inline-block;
   color: #2B1E18;
+  margin: 5px 0;
   transition: 0.2s;
 }
 
 footer a:hover {
-  color: #FFDCBB;
+  color: #978574;
+}
+
+footer p {
+    font-size: 0.8rem;
 }
