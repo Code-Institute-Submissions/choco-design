@@ -40,6 +40,10 @@ This website is part of my 1st milestone project in Coding Institute's Full Stac
 
 The two main colours used are dark chocolate brown (#2b1e18) and creamy beige (#ffdcbb).
 
+### Imagery
+
+The large, banner images are showing different types of chocolate products with colors matching site's colour scheme. Purpose of images is to give clear idea of the purpose of the site and to also make it visually attractive.
+
 ## Technologies Used
 
 ### Languages Used
@@ -68,3 +72,19 @@ Hatchful is free online logo generator which was used to create logo for the com
 * Balsamiq
 
 Balsamiq was used to create the wireframes during the design process.
+
+* Photopea.com
+
+Photopea is free online photo editor which was used to resize and optimize logo and photos for the website.
+
+## Credits
+
+### Media 
+
+* All banner images are licence free and downloaded from [Unsplash.com](https://unsplash.com/)
+
+### Acknowledgements
+
+* My mentor Aaron Sinnott for continuous helpful feedback.
+
+* Tutor support at Code Institute for their support.
