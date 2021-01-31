@@ -77,6 +77,10 @@ Balsamiq was used to create the wireframes during the design process.
 
 Photopea is free online photo editor which was used to resize and optimize logo and photos for the website.
 
+* Font Awesome
+
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
 ## Credits
 
 ### Media 
