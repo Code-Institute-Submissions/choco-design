@@ -139,6 +139,10 @@ navbar {
   background-image: url("../images/index/bg-banner-index.jpg");
 }
 
+.banner-bg-gallery {
+  background-image: url("../images/gallery/bg-banner-gallery.jpg");
+}
+
 .banner-bg-gradient {
   background-image: linear-gradient(#FFDCBB, rgba(255, 220, 203, 0));
   height: 50%;
