@@ -238,6 +238,60 @@ hr {
   margin-bottom: 50px;
 }
 
+.form {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.form input {
+  height: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form label {
+  font-family: "Commisioner", sans-serif;
+}
+
+.form textarea {
+  margin: 15px 0;
+}
+
+.form input,
+.form textarea {
+  background-color: #FFDCBB;
+  font-family: "Thasadith",sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .btn {
+  background-color: #2B1E18;
+  color: #FFDCBB;
+  border-color: #FFDCBB;
+  font-size: 1.1rem;
+}
+
+.form .btn:hover {
+  background-color: #FFDCBB;
+  color: #2B1E18;
+}
+
+.newsletter-link {
+    color: #FFDCBB;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
 /* ##### FOOTER ##### */
 
 footer {
