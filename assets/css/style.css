@@ -26,6 +26,7 @@ body {
   color: #FFDCBB;
 }
 
+
 /* # Fonts # */
 
 h1,
@@ -360,6 +361,9 @@ footer p {
 /* ## Desktop ## */
 
 @media only screen and (min-width: 1200px) {
+
+/* general styles */
+
   .banner {
     flex-direction: row;
   }
@@ -374,4 +378,43 @@ footer p {
     width: 50%;
     left: 0;
   }
+
+/* index.html */
+
+  .content>p {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  .content-item-wrapper {
+    display: flex;
+  }
+
+  .content-item {
+    background-color: #FFDCBB;
+    color: #2B1E18;
+    position: relative;
+    margin: 50px auto;
+    width: 25vw;
+    height: 30vh;
+  }
+
+  .content-item * {
+    width: 90%;
+    margin: auto;
+  }
+
+  .content .fix-center {
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
 }
