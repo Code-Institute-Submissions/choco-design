@@ -218,6 +218,15 @@ hr {
   margin: 10px auto;
 }
 
+.gallery-photo:nth-of-type(3),
+.gallery-photo:nth-of-type(4),
+.gallery-photo:nth-of-type(7),
+.gallery-photo:nth-of-type(8),
+.gallery-photo:nth-of-type(11),
+.gallery-photo:nth-of-type(12) {
+  display: none;
+}
+
 .gallery-photo:last-of-type {
   margin-bottom: 50px;
 }
@@ -236,6 +245,11 @@ hr {
   border: 10px solid #FFDCBB;
   border-radius: 50%;
   margin-bottom: 50px;
+}
+
+.content article {
+  width: 90%;
+  margin: auto;
 }
 
 .form {
@@ -314,4 +328,30 @@ footer a:hover {
 
 footer p {
     font-size: 0.8rem;
+}
+
+
+/* ##### MEDIA QUERIES ##### */
+
+/* ## Tablet ## */
+
+@media only screen and (min-width: 768px) {
+
+  .gallery-photo-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery-photo {
+    width: 48%;
+  }
+
+  .gallery-photo:nth-of-type(3),
+  .gallery-photo:nth-of-type(4),
+  .gallery-photo:nth-of-type(7),
+  .gallery-photo:nth-of-type(8),
+  .gallery-photo:nth-of-type(11),
+  .gallery-photo:nth-of-type(12) {
+    display: block;
+  }
 }
