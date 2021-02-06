@@ -403,13 +403,17 @@ footer p {
     height: 30vh;
   }
 
+  .content-item h3 {
+    margin-top: 0;
+  }
+
   .content-item * {
     width: 90%;
     margin: auto;
   }
 
   .content .fix-center {
-    height: 80%;
+    height: fit-content;
     position: absolute;
     top: 0;
     left: 0;
