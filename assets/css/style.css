@@ -232,8 +232,8 @@ hr {
     display: none;
 }
 
-.gallery-photo:last-of-type {
-    margin-bottom: 50px;
+.gallery-menu-link {
+    display: none;
 }
 
 .content h3 {
@@ -450,6 +450,16 @@ footer p {
         height: 200px;
         margin-top: 20px;
     }
+
+    .gallery-menu-link {
+        display: block;
+    }
+
+    .gallery-menu-link a {
+        color: #FFDCBB;
+        font-size: 0.6rem;
+    }
+
 
 /* contact.html */
 
