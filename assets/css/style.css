@@ -302,6 +302,10 @@ hr {
   color: #2B1E18;
 }
 
+.hr-contact {
+    display: none;
+}
+
 .newsletter-link {
     color: #FFDCBB;
     font-size: 1rem;
@@ -332,7 +336,7 @@ footer a:hover {
 }
 
 footer p {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 
@@ -445,6 +449,37 @@ footer p {
     display: inline-block;
     height: 200px;
     margin-top: 20px;
+  }
+
+/* contact.html */
+
+  .content-about {
+    display: flex;
+  }
+
+  .about-info {
+    width: 50%;
+  }
+
+  .form-wrapper {
+    width: 50%; 
+    position: relative;
+  }
+
+  .form {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 95%;
+}
+
+  .hr-contact {
+    display: block;
+    margin-top: 50px;
+}
+
+  .content p:last-of-type {
+    margin-top: 50px;  
   }
 
 }
