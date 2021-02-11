@@ -91,11 +91,53 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
 
 ## Testing
 
-### Known Bugs
+### Testing User Stories from User Experience (UX) Section
+
+#### 1. First Time Visitor Goals
+
+* As a First Time Visitor, I want to easily understand the main purpose of the site and what is company's main objective.
+  * On every page of the website there is a big banner with chocolate photo and company logo which clearly suggests the theme of the website.
+  * On the left side of the banner there is a welcoming title with brief marketing text which tells main purpose of website and every page. *(On mobile and tablet version title section is above banner)*
+  * Below banner on the main page there is main content area which contains more details on types of business that owner of the company identified as key partners.
+
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+  * The site has been designed to be responsive on mobile, tablet and desktop sizes. At the top of each page there is a clean navigation bar. Each link clearly describes to which page user will be redirected.
+  * Layout of the website is consistent with navigation bar, banner section, content section and footer on every page.
+  * At the bottom of every page there is a link to bring the user to the top of the page.
+  * On gallery page in desktop view there are thumbnail images that act as links to each gallery podsection.
+  * At the end of each gallery podsection in desktop view there is a link which brings user back to the main gallery menu.
+
+* As a First Time Visitor, I want to find out more about the products which are for sale.
+  * On main gallery page products are organized in categories with clear text description for every podsection.
+  * In desktop view user has the option to click on image thumbnails to access the gallery with more images of the same product type.
+  * In mobile and tablet views there are no thumbnail links, and in mobile version there are only two photos per each section.
+
+* As a First Time Visitor, I want to find out more about the company and also I want to locate their social media links to see their followings and to determine how trusted and known they are.
+  * 'Contact' page of the website provides the user with all relevant information about the company and it's owner Betty Miller in 'About Us' section.
+  * In the footer area throughout the website there are icons linking to company's profiles on various social media accounts. Links are opening in new tabs with intention of keeping user on our website after checking social media sites.
+
+#### 2. Returning Visitor Goals
+
+* As a Returning Visitor, I want to find photo updated gallery with all products offered by company.
+  * Gallery section has 'new' badge feature added to photos to clearly shows which products are newest in company's portfolio.
+
+* As a Returning Visitor, I want to find the best way to get in contact with the the company with any enquiries I may have.
+  * On every page in the website there is a call to action button which invites the user to enquire about products. Click on this button will redirect the user directly to contact form.
+  * On the navigation bar  throughout the website there is a link to 'Contact' page. There user can fill out the provided form and send the message directly to the company email. Alternatively user can contact the company via one of the social media links provided in the footer.
+  * The footer contains links to the company's Facebook, Instagram, Pinterest and Youtube profiles as well as the email link. Each link will be opened in new tab to ensure that user can easily get back to the website. Email link will open default email app and autofill email address in to recepient field.
+
+#### 3. Frequent User Goals
+
+* As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+  * On 'Contact' page there is a form which allows user to sign up to the newsletter.
+
+### Further Testing
+
+#### Known Bugs
 
 * None
 
-### Previous bugs (fixed)
+#### Previous bugs (fixed)
 * Content boxes on the main page in desktop view are not centered properly.
   * This was caused by following CSS code:
 
