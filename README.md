@@ -4,6 +4,9 @@
 
 This website is part of my 1st milestone project in Coding Institute's Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
 
+![Mockup image of responsive website](/mockup.JPG)
+
+
 ## User Experience (UX)
 
 ### User stories
@@ -11,28 +14,26 @@ This website is part of my 1st milestone project in Coding Institute's Full Stac
 #### 1. First Time Visitor Goals
 
 * As a First Time Visitor, I want to easily understand the main purpose of the site and what is company's main objective.
-
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-
 * As a First Time Visitor, I want to find out more about the products which are for sale.
-
 * As a First Time Visitor, I want to find out more about the company and also I want to locate their social media links to see their followings and to determine how trusted and known they are.
 
 #### 2. Returning Visitor Goals
 
 * As a Returning Visitor, I want to find photo gallery with all products offered by company.
-
 * As a Returning Visitor, I want to find the best way to get in contact with the the company with any enquiries I may have.
 
 #### 3. Frequent User Goals
 
 * As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
+
 ## Wireframes
 
 * [Mobile view](wireframes/wireframes-mobile.pdf)
 * [Tablet view](wireframes/wireframes-tablet.pdf)
 * [Desktop view](wireframes/wireframes-desktop.pdf)
+
 
 ## Design
 
@@ -47,6 +48,13 @@ The large, banner images are showing different types of chocolate products with 
 ### Typography
 
 The Thasadith font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. On some of the headings there is combination of Commissioner and Euphoria Script fonts with Sans Serif as the fallback font.
+
+
+## Features
+
+* Responsive on all device sizes
+* Interactive elements
+
 
 ## Technologies Used
 
@@ -88,6 +96,7 @@ Font Awesome was used on all pages throughout the website to add icons for aesth
 * Google Fonts
 
 Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria Script' fonts into the style.css file which is used on all pages throughout the project.
+
 
 ## Testing
 
@@ -138,6 +147,7 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
 * None
 
 #### Previous bugs (fixed)
+
 * Content boxes on the main page in desktop view are not centered properly.
   * This was caused by following CSS code:
 
@@ -145,23 +155,69 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
     .content p:last-of-type {
         margin-top: 50px;  
     }
+  ```
+
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
 
 ## Credits
 
 ### Media 
 
 * All banner images and image of random woman (used for Betty Miller's profile) are licence free and downloaded from [Unsplash.com](https://unsplash.com/)
-
 * Photos used in gallery section are property of Marina Prijatelj and were used with author's permission. Photos are downloaded from website [cokolada.hr](http://www.cokolada.hr/)
 
 ### Content
 
 * All content was written by Sandro Bencinic (developer).
-
 * Betty Miller's character is fictional and was made up by developer.
+
+### Readme
+
+* Code Institute's readme file template was used to create this readme file. Content of this file was modified by developer to match properties of the website.
 
 ### Acknowledgements
 
 * My mentor Aaron Sinnott for continuous helpful feedback.
-
 * Tutor support at Code Institute for their support.
