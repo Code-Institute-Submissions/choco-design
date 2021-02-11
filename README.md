@@ -93,7 +93,16 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
 
 ### Known Bugs
 
+* None
+
+### Previous bugs (fixed)
 * Content boxes on the main page in desktop view are not centered properly.
+  * This was caused by following CSS code:
+
+  ```CSS
+    .content p:last-of-type {
+        margin-top: 50px;  
+    }
 
 ## Credits
 
