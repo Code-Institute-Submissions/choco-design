@@ -440,7 +440,7 @@ footer p {
 
     .gallery-thumb-bg {
         background-color: #FFDCBB;
-        height: 240px;
+        height: 280px;
         width: 290px;
         margin-top: 50px;
     }
@@ -449,6 +449,26 @@ footer p {
         display: inline-block;
         height: 200px;
         margin-top: 20px;
+        transition: 0.2s;
+    }
+
+    .gallery-thumb:hover {
+        transform: scale(1.05);
+    }
+
+    .gallery-thumb-title {
+        color: #2B1E18;
+        font-weight: 800;
+        margin-top: 16px;
+    }
+
+    .badge {
+        background-color: #2B1E18;
+        color: #FFDCBB;
+        font-size: 0.9rem;
+        font-weight: 800;
+        border-radius: 10%;
+        padding: 0 4px;
     }
 
     .gallery-menu-link {
