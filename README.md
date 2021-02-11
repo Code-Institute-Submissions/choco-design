@@ -89,6 +89,12 @@ Font Awesome was used on all pages throughout the website to add icons for aesth
 
 Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria Script' fonts into the style.css file which is used on all pages throughout the project.
 
+## Testing
+
+### Known Bugs
+
+* Content boxes on the main page in desktop view are not centered properly.
+
 ## Credits
 
 ### Media 
