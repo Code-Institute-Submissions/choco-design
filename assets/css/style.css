@@ -487,8 +487,4 @@ footer p {
         display: block;
         margin-top: 50px;
     }
-
-    .content p:last-of-type {
-        margin-top: 50px;  
-    }
 }
