@@ -26,6 +26,14 @@ body {
     color: #FFDCBB;
 }
 
+.fix-center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 
 /* # Fonts # */
 
@@ -103,15 +111,9 @@ navbar {
 /* # Banner title section # */
 
 .banner {
-    display: flex;
-    flex-direction: column;
     background-color: #FFDCBB;
     color: #2B1E18;
     position: relative;
-}
-
-.banner-title-wrapper {
-    display: flex; 
 }
 
 .banner-title {
@@ -162,11 +164,6 @@ navbar {
     width: 208px;
     height: 120px;
     margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 
@@ -186,6 +183,12 @@ navbar {
 
 .content .dot {
     margin-top: 50px;
+}
+
+
+/* This disables the class in mobile and tablet view. In desktop view this is activated by switching to absolute. */
+.content-item .fix-center {
+    position: relative;
 }
 
 .content-item {
@@ -223,6 +226,7 @@ hr {
     margin: 10px auto;
 }
 
+/* Disables last 2 photos in each section in mobile view */
 .gallery-photo:nth-of-type(3),
 .gallery-photo:nth-of-type(4),
 .gallery-photo:nth-of-type(7),
@@ -232,6 +236,7 @@ hr {
     display: none;
 }
 
+/* Disables links to main gallery in mobile and tablet view */
 .gallery-menu-link {
     display: none;
 }
@@ -327,7 +332,7 @@ footer {
 footer a {
     display: inline-block;
     color: #2B1E18;
-    margin: 5px 0;
+    margin: 5px;
     transition: 0.2s;
 }
 
@@ -373,7 +378,12 @@ footer p {
 /* general styles */
 
     .banner {
+        display: flex;
         flex-direction: row;
+    }
+
+    .banner-title-wrapper {
+        display: flex;
     }
 
     .banner-bg {
@@ -385,6 +395,11 @@ footer p {
         height: 100%;
         width: 50%;
         left: 0;
+    }
+
+    .banner-bg-logo {
+        width: 374px;
+        height: 216px;
     }
 
 /* index.html */
@@ -412,6 +427,8 @@ footer p {
     }
 
     .content-item .fix-center {
+        position: absolute;
+        height: fit-content;
         transition: 0.2s;
     }
 
@@ -431,11 +448,6 @@ footer p {
 
     .content .fix-center {
         height: fit-content;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
     }
 
 /* gallery.html */
@@ -482,6 +494,10 @@ footer p {
 
     .gallery-menu-link {
         display: block;
+    }
+
+    .gallery-menu-link:last-of-type {
+        margin-bottom: 50px;
     }
 
     .gallery-menu-link a {
