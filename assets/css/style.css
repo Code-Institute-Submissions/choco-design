@@ -408,7 +408,16 @@ footer p {
         position: relative;
         margin: 50px auto;
         width: 25vw;
-        height: 30vh;
+        height: 35vh;
+    }
+
+    .content-item .fix-center {
+        transition: 0.2s;
+    }
+
+    .content-item .fix-center:hover {
+        transform: scale(1.1);
+        font-weight: 800;
     }
 
     .content-item h3 {
