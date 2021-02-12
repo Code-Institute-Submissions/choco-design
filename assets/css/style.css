@@ -87,6 +87,7 @@ navbar {
 
 .navbar-items {
     display: flex;
+    margin-right: 10px;
 }
 
 .navbar-items li {
