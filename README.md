@@ -2,7 +2,7 @@
 
 [Click for live website demo](https://bencheee.github.io/choco-design/)
 
-This website is part of my 1st milestone project in Coding Institute's Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
+This website is part of my 1st milestone project in [Coding Institute's](https://codeinstitute.net/) Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
 
 ![Mockup image of responsive website](/mockup.JPG)
 
@@ -47,7 +47,7 @@ The large, banner images are showing different types of chocolate products with 
 
 ### Typography
 
-The Thasadith font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. On some of the headings there is combination of Commissioner and Euphoria Script fonts with Sans Serif as the fallback font.
+The 'Thasadith' font is the main font used throughout the whole website with 'Sans Serif' as the fallback font in case for any reason the font isn't being imported into the site correctly. On some of the headings there is combination of 'Commissioner' and 'Euphoria Script' fonts with 'Sans Serif' as the fallback font.
 
 
 ## Features
@@ -60,45 +60,51 @@ The Thasadith font is the main font used throughout the whole website with Sans 
 
 ### Languages Used
 
-* HTML5
-* CSS3 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS) 
 
 ### Frameworks, Libraries & Programs Used
 
-* Gitpod
+* [Gitpod](https://www.gitpod.io/)
 
 Gitpod was used to write all the HTML and CSS code for the website.
 
-* Git
+* [Git](https://git-scm.com/)
 
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-* GitHub
+* [GitHub](https://github.com/)
 
 GitHub is used to store the projects code after being pushed from Git.
 
-* Hatchful logo maker
+* [Hatchful](https://hatchful.shopify.com/)
 
 Hatchful is free online logo generator which was used to create logo for the company which is used on the website.
 
-* Balsamiq
+* [Balsamiq](https://balsamiq.com/)
 
 Balsamiq was used to create the wireframes during the design process.
 
-* Photopea.com
+* [Photopea](https://www.photopea.com/)
 
 Photopea is free online photo editor which was used to resize and optimize logo and photos for the website.
 
-* Font Awesome
+* [Font Awesome](https://fontawesome.com/)
 
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-* Google Fonts
+* [Google Fonts](https://fonts.google.com/)
 
 Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria Script' fonts into the style.css file which is used on all pages throughout the project.
 
+* [Autoprefixer](https://autoprefixer.github.io/)
+
+Autoprefixer was used to add prefixes to CSS properties which are not supported by some browsers.
+
 
 ## Testing
+
+The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -106,13 +112,13 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
 
 * As a First Time Visitor, I want to easily understand the main purpose of the site and what is company's main objective.
   * On every page of the website there is a big banner with chocolate photo and company logo which clearly suggests the theme of the website.
-  * On the left side of the banner there is a welcoming title with brief marketing text which tells main purpose of website and every page. *(On mobile and tablet version title section is above banner)*
+  * On the left side of the banner there is a welcoming title with brief marketing text which tells main purpose of website and purpose of every page. *(On mobile and tablet version title section is above banner)*
   * Below banner on the main page there is main content area which contains more details on types of business that owner of the company identified as key partners.
 
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
   * The site has been designed to be responsive on mobile, tablet and desktop sizes. At the top of each page there is a clean navigation bar. Each link clearly describes to which page user will be redirected.
   * Layout of the website is consistent with navigation bar, banner section, content section and footer on every page.
-  * At the bottom of every page there is a link to bring the user to the top of the page.
+  * At the bottom of every page there is a link to bring the user back to the top of the page.
   * On gallery page in desktop view there are thumbnail images that act as links to each gallery podsection.
   * At the end of each gallery podsection in desktop view there is a link which brings user back to the main gallery menu.
 
@@ -128,7 +134,7 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
 #### 2. Returning Visitor Goals
 
 * As a Returning Visitor, I want to find photo updated gallery with all products offered by company.
-  * Gallery section has 'new' badge feature added to photos to clearly shows which products are newest in company's portfolio.
+  * Gallery section has 'new' badge feature added to photos to clearly show which products are newest in company's portfolio.
 
 * As a Returning Visitor, I want to find the best way to get in contact with the the company with any enquiries I may have.
   * On every page in the website there is a call to action button which invites the user to enquire about products. Click on this button will redirect the user directly to contact form.
@@ -138,13 +144,25 @@ Google fonts were used to import the 'Thasadith', 'Commissioner' and 'Euphoria S
 #### 3. Frequent User Goals
 
 * As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-  * On 'Contact' page there is a form which allows user to sign up to the newsletter.
+  * On 'Contact' page there is a link which asks user to sign up to the newsletter.
 
 ### Further Testing
 
+* The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Opera browser.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPhone XR, Samsung Galaxy S10+ and Huawei Media Pad T3.
+* The website was tested on a variety of screen sizes using device toolbar option in Google Chrome developer tools.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+
 #### Known Bugs
 
-* None
+* Internet Explorer v1607
+  - content boxes on index.html not centered
+  - horizontal rules not showing
+* Mozilla Firefox v85.0.2
+  - content boxes on index.html not centered
+* Samsung Galaxy S10+
+  - content of the page is a bit wider probably due to curved edges of the screen
+* links to submit the contact form and to sign up for newsletter do not have any functionality yet
 
 #### Previous bugs (fixed)
 
@@ -205,7 +223,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Media 
 
-* All banner images and image of random woman (used for Betty Miller's profile) are licence free and downloaded from [Unsplash.com](https://unsplash.com/)
+* All banner images and image of random woman which was used for Betty Miller's profile photo are licence free and downloaded from [Unsplash](https://unsplash.com/)
 * Photos used in gallery section are property of Marina Prijatelj and were used with author's permission. Photos are downloaded from website [cokolada.hr](http://www.cokolada.hr/)
 
 ### Content
@@ -215,7 +233,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Readme
 
-* Code Institute's readme file template was used to create this readme file. Content of this file was modified by developer to match properties of the website.
+* Code Institute's readme file template was used to create readme file for this website. Content of original readme file was modified by developer to match properties of this website.
 
 ### Acknowledgements
 
