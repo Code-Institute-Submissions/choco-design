@@ -2,7 +2,7 @@
 
 [Click for live website demo](https://bencheee.github.io/choco-design/)
 
-This website is part of my 1st milestone project in [Coding Institute's](https://codeinstitute.net/) Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
+This website is part of my 1st milestone project in [Code Institute's](https://codeinstitute.net/) Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
 
 ![Mockup image of responsive website](/mockup.JPG)
 
