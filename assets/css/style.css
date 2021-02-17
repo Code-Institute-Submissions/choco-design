@@ -43,6 +43,47 @@ body {
     bottom: 0;
 }
 
+/* # Modals # */
+
+
+.modal-content {
+    background-color: #FFDCBB;
+    font-family: "Thasadith", sans-serif;
+    font-weight: 800;
+}
+
+.modal-body input,
+.modal-body input::placeholder,
+#email2 {
+    color: #FFDCBB;
+    font-weight: 600;
+}
+
+.modal-body p {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    justify-content: center;
+    border: none;
+}
+
+#email2 {
+    background-color: #2B1E18;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.btn-cxl,
+.btn-ok {
+    width: 150px;
+    font-weight: 600;
+}
+
 
 /* # Fonts # */
 
@@ -400,6 +441,9 @@ footer p {
     .gallery-photo:nth-of-type(12) {
         display: block;
     }
+
+    #email2 {
+        width: 310px;
 }
 
 
@@ -587,4 +631,5 @@ footer p {
         display: block;
         margin-top: 50px;
     }
-}
+
+}}
