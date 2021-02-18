@@ -43,48 +43,6 @@ body {
     bottom: 0;
 }
 
-/* # Modals # */
-
-
-.modal-content {
-    background-color: #FFDCBB;
-    font-family: "Thasadith", sans-serif;
-    font-weight: 800;
-}
-
-.modal-body input,
-.modal-body input::placeholder,
-#email2 {
-    color: #FFDCBB;
-    font-weight: 600;
-}
-
-.modal-body p {
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.modal-header,
-.modal-body,
-.modal-footer {
-    justify-content: center;
-    border: none;
-}
-
-#email2 {
-    background-color: #2B1E18;
-    display: block;
-    margin: auto;
-    width: 70%;
-}
-
-.btn-cxl,
-.btn-ok {
-    width: 150px;
-    font-weight: 600;
-}
-
-
 /* # Fonts # */
 
 h1,
@@ -95,6 +53,7 @@ p {
 
 h1 {
     font-size: 1.6rem;
+    font-weight: 600;
 }
 
 h2 {
@@ -184,9 +143,8 @@ nav {
     padding: 20px 0;
 }
 
-.banner-title p:last-of-type {
-    margin: 10px 0 5px 0;
-    font-size: 0.8rem;
+.banner-title p {
+    margin: 20px auto;
     font-weight: 600;
 }
 
@@ -379,12 +337,19 @@ hr {
     display: none;
 }
 
-.newsletter-link {
-    color: #FFDCBB;
-    font-size: 1rem;
-    font-weight: 600;
-    display: inline-block;
-    margin-bottom: 50px;
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter input,
+.newsletter label {
+    margin-bottom: 15px;
+}
+
+input[type="reset"] {
+    margin-top: 15px;
 }
 
 
@@ -452,6 +417,18 @@ footer p {
 @media only screen and (min-width: 1200px) {
 
 /* general styles */
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
 
     .banner {
         display: -webkit-box;
@@ -613,6 +590,7 @@ footer p {
 
     .about-info {
         width: 50%;
+        padding-bottom: 50px;
     }
 
     .form-wrapper {
