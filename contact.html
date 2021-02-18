@@ -49,8 +49,7 @@
             </div>
 
             <div class="form-wrapper">
-                <!-- Function to call modal is taken from bootstrap library / method = "dialog" is used for modal stay on screen after submitting -->
-                <form class="form" onsubmit="$('#modal3').modal('show')" method="dialog" >
+                <form class="form" action="https://formdump.codeinstitute.net/" method="post" target="_blank" onsubmit="reset()">
                     <div class="form-input">
                         <label for="fname">First name:</label>
                         <input type="text" id="fname" name="fname" required>
@@ -107,19 +106,6 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <p>You have successfuly subscribed to newsletter!</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-ok" data-dismiss="modal">OK</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal3" class="modal fade" data-backdrop="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <p>Your message was sent successfuly!</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-ok" data-dismiss="modal">OK</button>
