@@ -14,6 +14,10 @@
     padding: 0;
 }
 
+html { 
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #2B1E18;
 }
@@ -366,9 +370,6 @@ footer a {
     display: inline-block;
     color: #2B1E18;
     margin: 5px;
-    -webkit-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
 }
 
 footer a:hover {
@@ -431,6 +432,7 @@ footer p {
     }
 
     .banner {
+        height: 50vh;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -448,6 +450,7 @@ footer p {
 
     .banner-bg {
         width: 100%;
+        height: auto;
     }
 
     .banner-bg-gradient {
