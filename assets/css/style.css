@@ -416,207 +416,204 @@ footer p {
     .gallery-photo:nth-of-type(12) {
         display: block;
     }
-    #email2 {
-        width: 310px;
-    }
+}
 
     /* ---------------- ## Desktop ## */
 
-    @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 
-        /* general styles */
+    /* general styles */
 
-        h1 {
-            font-size: 3.5rem;
-        }
+    h1 {
+        font-size: 3.5rem;
+    }
 
-        h3 {
-            font-size: 3rem;
-        }
+    h3 {
+        font-size: 3rem;
+    }
 
-        p {
-            font-size: 1.2rem;
-        }
+    p {
+        font-size: 1.2rem;
+    }
 
-        .banner {
-            height: 50vh;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: row;
-                    flex-direction: row;
-        }
+    .banner {
+        height: 50vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
 
-        .banner-title-wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-        }
+    .banner-title-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
 
-        .banner-bg {
-            width: 100%;
-            height: auto;
-        }
+    .banner-bg {
+        width: 100%;
+        height: auto;
+    }
 
-        .banner-bg-gradient {
-            background-image: -webkit-gradient(linear, left top, right top, from(#FFDCBB), to(rgba(255, 220, 203, 0)));
-            background-image: -o-linear-gradient(left, #FFDCBB, rgba(255, 220, 203, 0));
-            background-image: linear-gradient(90deg, #FFDCBB, rgba(255, 220, 203, 0));
-            height: 100%;
-            width: 50%;
-            left: 0;
-        }
+    .banner-bg-gradient {
+        background-image: -webkit-gradient(linear, left top, right top, from(#FFDCBB), to(rgba(255, 220, 203, 0)));
+        background-image: -o-linear-gradient(left, #FFDCBB, rgba(255, 220, 203, 0));
+        background-image: linear-gradient(90deg, #FFDCBB, rgba(255, 220, 203, 0));
+        height: 100%;
+        width: 50%;
+        left: 0;
+    }
 
-        .banner-bg-logo {
-            width: 374px;
-            height: 216px;
-        }
+    .banner-bg-logo {
+        width: 374px;
+        height: 216px;
+    }
 
-        /* index.html */
+    /* index.html */
 
-        .content>p {
-            width: 35%;
-            margin: 0 auto;
-        }
+    .content>p {
+        width: 35%;
+        margin: 0 auto;
+    }
 
-        .dot {
-            display: none;
-        }
+    .dot {
+        display: none;
+    }
 
-        .content-item-wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-        }
+    .content-item-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
 
-        .content-item {
-            background-color: #FFDCBB;
-            color: #2B1E18;
-            position: relative;
-            margin: 50px auto;
-            width: 25vw;
-            height: 35vh;
-        }
+    .content-item {
+        background-color: #FFDCBB;
+        color: #2B1E18;
+        position: relative;
+        margin: 50px auto;
+        width: 25vw;
+        height: 35vh;
+    }
 
-        .content-item .fix-center {
-            position: absolute;
-            height: -webkit-fit-content;
-            height: -moz-fit-content;
-            height: fit-content;
-            -webkit-transition: 0.2s;
-            -o-transition: 0.2s;
-            transition: 0.2s;
-        }
+    .content-item .fix-center {
+        position: absolute;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
 
-        .content-item .fix-center:hover {
-            -webkit-transform: scale(1.1);
-                -ms-transform: scale(1.1);
-                    transform: scale(1.1);
-            font-weight: 800;
-        }
+    .content-item .fix-center:hover {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+        font-weight: 800;
+    }
 
-        .content-item h3 {
-            margin-top: 0;
-        }
+    .content-item h3 {
+        margin-top: 0;
+    }
 
-        .content-item * {
-            width: 90%;
-            margin: auto;
-        }
+    .content-item * {
+        width: 90%;
+        margin: auto;
+    }
 
-        /* gallery.html */
+    /* gallery.html */
 
-        .gallery-thumb-wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
-                    justify-content: space-between;
-            width: 910px;
-            margin: 0 auto;
-        }
+    .gallery-thumb-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 910px;
+        margin: 0 auto;
+    }
 
-        .gallery-thumb-bg {
-            background-color: #FFDCBB;
-            height: 280px;
-            width: 290px;
-            margin-top: 50px;
-        }
+    .gallery-thumb-bg {
+        background-color: #FFDCBB;
+        height: 280px;
+        width: 290px;
+        margin-top: 50px;
+    }
 
-        .gallery-thumb {
-            display: inline-block;
-            height: 200px;
-            margin-top: 20px;
-            -webkit-transition: 0.2s;
-            -o-transition: 0.2s;
-            transition: 0.2s;
-        }
+    .gallery-thumb {
+        display: inline-block;
+        height: 200px;
+        margin-top: 20px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
 
-        .gallery-thumb:hover {
-            -webkit-transform: scale(1.05);
-                -ms-transform: scale(1.05);
-                    transform: scale(1.05);
-        }
+    .gallery-thumb:hover {
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
 
-        .gallery-thumb-title {
-            color: #2B1E18;
-            font-weight: 800;
-            margin-top: 16px;
-        }
+    .gallery-thumb-title {
+        color: #2B1E18;
+        font-weight: 800;
+        margin-top: 16px;
+    }
 
-        .badge {
-            background-color: #2B1E18;
-            color: #FFDCBB;
-            font-size: 0.9rem;
-            font-weight: 800;
-            border-radius: 10%;
-            padding: 0 4px;
-        }
+    .badge {
+        background-color: #2B1E18;
+        color: #FFDCBB;
+        font-size: 0.9rem;
+        font-weight: 800;
+        border-radius: 10%;
+        padding: 0 4px;
+    }
 
-        .gallery-menu-link {
-            display: block;
-        }
+    .gallery-menu-link {
+        display: block;
+    }
 
-        .gallery-menu-link:last-of-type {
-            margin-bottom: 50px;
-        }
+    .gallery-menu-link:last-of-type {
+        margin-bottom: 50px;
+    }
 
-        .gallery-menu-link a {
-            color: #FFDCBB;
-            font-size: 0.6rem;
-        }
+    .gallery-menu-link a {
+        color: #FFDCBB;
+        font-size: 0.6rem;
+    }
 
-        /* contact.html */
+    /* contact.html */
 
-        .content-about {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-        }
+    .content-about {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
 
-        .about-info {
-            width: 50%;
-            padding-bottom: 50px;
-        }
+    .about-info {
+        width: 50%;
+        padding-bottom: 50px;
+    }
 
-        .form-wrapper {
-            width: 50%;
-            position: relative;
-        }
+    .form-wrapper {
+        width: 50%;
+        position: relative;
+    }
 
-        .form {
-            position: absolute;
-            bottom: 0;
-            margin: 0 auto;
-            width: 95%;
-        }
-        
-        .hr-contact {
-            display: block;
-            margin-top: 50px;
-        }
+    .form {
+        position: absolute;
+        bottom: 0;
+        margin: 0 auto;
+        width: 95%;
+    }
+    
+    .hr-contact {
+        display: block;
+        margin-top: 50px;
     }
 }
