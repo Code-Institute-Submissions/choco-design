@@ -4,7 +4,7 @@
 
 This website is part of my 1st milestone project in [Code Institute's](https://codeinstitute.net/) Full Stack Software Development Course. This is website for imaginary company called 'Choco-Design'. This company is making unique chocolate products and selling them to other businesses such as hotels, bars, restaurants, shops, etc. Website is made to be fully responsive on range of devices to provide great browsing experience for existining partners and potential new customers.
 
-![Mockup image of responsive website](/mockup.JPG)
+![Mockup image of responsive website](/documentation/mockup.JPG)
 
 
 ## User Experience (UX)
@@ -30,9 +30,9 @@ This website is part of my 1st milestone project in [Code Institute's](https://c
 
 ## Wireframes
 
-* [Mobile view](wireframes/wireframes-mobile.pdf)
-* [Tablet view](wireframes/wireframes-tablet.pdf)
-* [Desktop view](wireframes/wireframes-desktop.pdf)
+* [Mobile view](documentation/wireframes/wireframes-mobile.pdf)
+* [Tablet view](documentation/wireframes/wireframes-tablet.pdf)
+* [Desktop view](documentation/wireframes/wireframes-desktop.pdf)
 
 
 ## Design
@@ -106,6 +106,13 @@ Autoprefixer was used to add prefixes to CSS properties which are not supported 
 
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
+* HTML Code Test
+  [index.html](documentation/tests/w3c_index.JPG)
+  [gallery.html](documentation/tests/w3c_gallery.JPG)
+  [contact.html](documentation/tests/w3c_contact.JPG)
+* CSS Code Test
+  [CSS](documentation/tests/w3c_css.JPG)
+
 ### Testing User Stories from User Experience (UX) Section
 
 #### 1. First Time Visitor Goals
@@ -148,9 +155,68 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 ### Further Testing
 
+* Lighthouse test results
+
+  Desktop (index.html; gallery.html; contact.html)
+
+  <a href="documentation/tests/lh_desktop_index.JPG"><img src="documentation/tests/lh_desktop_index.JPG" alt="lighthouse test index.html desktop" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/lh_desktop_gallery.JPG"><img src="documentation/tests/lh_desktop_gallery.JPG" alt="lighthouse test gallery.html desktop" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/lh_desktop_contact.JPG"><img src="documentation/tests/lh_desktop_contact.JPG" alt="lighthouse test contact.html desktop" style="width: 200px;" target="_blank"></a>
+
+  Mobile (index.html; gallery.html; contact.html)
+
+  <a href="documentation/tests/lh_mobile_index.JPG"><img src="documentation/tests/lh_mobile_index.JPG" alt="lighthouse test index.html mobile" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/lh_mobile_gallery.JPG"><img src="documentation/tests/lh_mobile_gallery.JPG" alt="lighthouse test gallery.html mobile" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/lh_mobile_contact.JPG"><img src="documentation/tests/lh_mobile_contact.JPG" alt="lighthouse test contact.html mobile" style="width: 200px;" target="_blank"></a>
+
 * The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Opera browser.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPhone XR, Samsung Galaxy S10+ and Huawei Media Pad T3.
-* The website was tested on a variety of screen sizes using device toolbar option in Google Chrome developer tools.
+
+  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_chrome.JPG"><img src="documentation/tests/browser_chrome.JPG" alt="browser test chrome" style="width: 150px;" target="_blank"></a>
+  <p>Chrome</p>
+  </div>
+  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_ie.JPG"><img src="documentation/tests/browser_ie.JPG" alt="browser test internet explorer" style="width: 150px;" target="_blank"></a>
+  <p>IE</p>
+  </div>
+  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_edge.JPG"><img src="documentation/tests/browser_edge.JPG" alt="browser test edge" style="width: 150px;" target="_blank"></a>
+  <p>Edge</p>
+  </div>
+  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_firefox.JPG"><img src="documentation/tests/browser_firefox.JPG" alt="browser test firefox" style="width: 150px;" target="_blank"></a>
+  <p>Firefox</p>
+  </div>
+  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_opera.JPG"><img src="documentation/tests/browser_opera.JPG" alt="browser test opera" style="width: 150px;" target="_blank"></a>
+  <p>Opera</p>
+  </div>
+
+* The website was viewed on a variety of devices such as iPhone7, iPhone XR, Samsung Galaxy S10+ and Huawei Media Pad T3.
+
+  iPhone 7
+
+  <a href="documentation/tests/iphone7_01.JPG"><img src="documentation/tests/iphone7_01.JPG" alt="iphone 7 test index.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/iphone7_02.JPG"><img src="documentation/tests/iphone7_02.JPG" alt="iphone 7 test gallery.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/iphone7_03.JPG"><img src="documentation/tests/iphone7_03.JPG" alt="iphone 7 test contact.html" style="width: 200px;" target="_blank"></a>
+
+  iPhone XR
+
+  <a href="documentation/tests/iphonexr_01.jpg"><img src="documentation/tests/iphonexr_01.jpg" alt="iphone XR test index.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/iphonexr_02.jpg"><img src="documentation/tests/iphonexr_02.jpg" alt="iphone XR test gallery.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/iphonexr_03.jpg"><img src="documentation/tests/iphonexr_03.jpg" alt="iphone XR test contact.html" style="width: 200px;" target="_blank"></a>
+
+  Samsung Galaxy S10+
+
+  <a href="documentation/tests/samsungs10_01.JPG"><img src="documentation/tests/samsungs10_01.JPG" alt="samsung galaxy s10+ test index.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/samsungs10_02.JPG"><img src="documentation/tests/samsungs10_02.JPG" alt="samsung galaxy s10+ test gallery.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/samsungs10_03.JPG"><img src="documentation/tests/samsungs10_03.JPG" alt="samsung galaxy s10+ test contact.html" style="width: 200px;" target="_blank"></a>
+
+  Huawei Media Pad T3
+
+  <a href="documentation/tests/huaweit3_01.jpg"><img src="documentation/tests/huaweit3_01.jpg" alt="huawei media pad t3 test index.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/huaweit3_02.jpg"><img src="documentation/tests/huaweit3_02.jpg" alt="huawei media pad t3 test gallery.html" style="width: 200px;" target="_blank"></a>
+  <a href="documentation/tests/huaweit3_03.jpg"><img src="documentation/tests/huaweit3_03.jpg" alt="huawei media pad t3 test contact.html" style="width: 200px;" target="_blank"></a>
+
+* The website was tested on desktop and laptop computers on a variety of screen sizes using device toolbar option in Google Chrome developer tools.
+
+  ![Testing in Chrome Developer Tools](/documentation/tests/dev_tools.jpg)
+
 * A large amount of testing was done to ensure that all pages were linking correctly.
 
 #### Known Bugs

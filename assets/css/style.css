@@ -285,7 +285,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.content article {
+.content .about-text {
     width: 90%;
     margin: auto;
 }
