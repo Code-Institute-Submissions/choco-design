@@ -39,15 +39,15 @@ This website is part of my 1st milestone project in [Code Institute's](https://c
 
 ### Colour Scheme
 
-The two main colours used are dark chocolate brown (#2b1e18) and creamy beige (#ffdcbb).
+- The two main colours used are dark chocolate brown (#2b1e18) and creamy beige (#ffdcbb).
 
 ### Imagery
 
-The large, banner images are showing different types of chocolate products with colors matching site's colour scheme. Purpose of images is to give clear idea of the purpose of the site and to also make it visually attractive.
+- The large, banner images are showing different types of chocolate products with colors matching site's colour scheme. Purpose of images is to give clear idea of the purpose of the site and to also make it visually attractive.
 
 ### Typography
 
-The 'Thasadith' font is the main font used throughout the whole website with 'Sans Serif' as the fallback font in case for any reason the font isn't being imported into the site correctly. On some of the headings there is combination of 'Commissioner' and 'Euphoria Script' fonts with 'Sans Serif' as the fallback font.
+- The 'Thasadith' font is the main font used throughout the whole website with 'Sans Serif' as the fallback font in case for any reason the font isn't being imported into the site correctly. On some of the headings there is combination of 'Commissioner' and 'Euphoria Script' fonts with 'Sans Serif' as the fallback font.
 
 
 ## Features
@@ -107,11 +107,11 @@ Autoprefixer was used to add prefixes to CSS properties which are not supported 
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 * HTML Code Test
-  [index.html](documentation/tests/w3c_index.JPG)
-  [gallery.html](documentation/tests/w3c_gallery.JPG)
-  [contact.html](documentation/tests/w3c_contact.JPG)
+  - [index.html](documentation/tests/w3c_index.JPG)
+  - [gallery.html](documentation/tests/w3c_gallery.JPG)
+  - [contact.html](documentation/tests/w3c_contact.JPG)
 * CSS Code Test
-  [CSS](documentation/tests/w3c_css.JPG)
+  - [CSS](documentation/tests/w3c_css.JPG)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -157,61 +157,45 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 * Lighthouse test results
 
-  Desktop (index.html; gallery.html; contact.html)
+  - Desktop (index.html / gallery.html / contact.html)
 
-  <a href="documentation/tests/lh_desktop_index.JPG"><img src="documentation/tests/lh_desktop_index.JPG" alt="lighthouse test index.html desktop" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/lh_desktop_gallery.JPG"><img src="documentation/tests/lh_desktop_gallery.JPG" alt="lighthouse test gallery.html desktop" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/lh_desktop_contact.JPG"><img src="documentation/tests/lh_desktop_contact.JPG" alt="lighthouse test contact.html desktop" style="width: 200px;" target="_blank"></a>
+    ![lighthouse test index.html desktop](documentation/tests/lh_desktop_index.jpg)
+    ![lighthouse test gallery.html desktop](documentation/tests/lh_desktop_gallery.jpg)
+    ![lighthouse test contact.html desktop](documentation/tests/lh_desktop_contact.jpg)
 
-  Mobile (index.html; gallery.html; contact.html)
+  - Mobile (index.html / gallery.html / contact.html)
 
-  <a href="documentation/tests/lh_mobile_index.JPG"><img src="documentation/tests/lh_mobile_index.JPG" alt="lighthouse test index.html mobile" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/lh_mobile_gallery.JPG"><img src="documentation/tests/lh_mobile_gallery.JPG" alt="lighthouse test gallery.html mobile" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/lh_mobile_contact.JPG"><img src="documentation/tests/lh_mobile_contact.JPG" alt="lighthouse test contact.html mobile" style="width: 200px;" target="_blank"></a>
+    ![lighthouse test index.html mobile](documentation/tests/lh_mobile_index.jpg)
+    ![lighthouse test gallery.html mobile](documentation/tests/lh_mobile_gallery.jpg)
+    ![lighthouse test contact.html mobile](documentation/tests/lh_mobile_contact.jpg)
 
-* The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Opera browser.
-
-  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_chrome.JPG"><img src="documentation/tests/browser_chrome.JPG" alt="browser test chrome" style="width: 150px;" target="_blank"></a>
-  <p>Chrome</p>
-  </div>
-  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_ie.JPG"><img src="documentation/tests/browser_ie.JPG" alt="browser test internet explorer" style="width: 150px;" target="_blank"></a>
-  <p>IE</p>
-  </div>
-  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_edge.JPG"><img src="documentation/tests/browser_edge.JPG" alt="browser test edge" style="width: 150px;" target="_blank"></a>
-  <p>Edge</p>
-  </div>
-  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_firefox.JPG"><img src="documentation/tests/browser_firefox.JPG" alt="browser test firefox" style="width: 150px;" target="_blank"></a>
-  <p>Firefox</p>
-  </div>
-  <div style="text-align: center; display: inline-block;"><a href="documentation/tests/browser_opera.JPG"><img src="documentation/tests/browser_opera.JPG" alt="browser test opera" style="width: 150px;" target="_blank"></a>
-  <p>Opera</p>
-  </div>
+* The website was tested on [Google Chrome](documentation/tests/browser_chrome.JPG), [Internet Explorer](documentation/tests/browser_ie.JPG), [Microsoft Edge](documentation/tests/browser_edge.JPG), [Mozilla Firefox](documentation/tests/browser_chrome.JPG) and [Opera](documentation/tests/browser_opera.JPG) browsers.
 
 * The website was viewed on a variety of devices such as iPhone7, iPhone XR, Samsung Galaxy S10+ and Huawei Media Pad T3.
 
-  iPhone 7
+  - iPhone 7
 
-  <a href="documentation/tests/iphone7_01.JPG"><img src="documentation/tests/iphone7_01.JPG" alt="iphone 7 test index.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/iphone7_02.JPG"><img src="documentation/tests/iphone7_02.JPG" alt="iphone 7 test gallery.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/iphone7_03.JPG"><img src="documentation/tests/iphone7_03.JPG" alt="iphone 7 test contact.html" style="width: 200px;" target="_blank"></a>
+    ![iphone 7 test index.html](documentation/tests/iphone7_01.jpg)
+    ![iphone 7 test gallery.html](documentation/tests/iphone7_02.jpg)
+    ![iphone 7 test contact.html](documentation/tests/iphone7_03.jpg)
 
-  iPhone XR
+  - iPhone XR
 
-  <a href="documentation/tests/iphonexr_01.jpg"><img src="documentation/tests/iphonexr_01.jpg" alt="iphone XR test index.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/iphonexr_02.jpg"><img src="documentation/tests/iphonexr_02.jpg" alt="iphone XR test gallery.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/iphonexr_03.jpg"><img src="documentation/tests/iphonexr_03.jpg" alt="iphone XR test contact.html" style="width: 200px;" target="_blank"></a>
+    ![iphone XR test index.html](documentation/tests/iphonexr_01.jpg)
+    ![iphone XR test gallery.html](documentation/tests/iphonexr_02.jpg)
+    ![iphone XR test contact.html](documentation/tests/iphonexr_03.jpg)
 
-  Samsung Galaxy S10+
+  - Samsung Galaxy S10+
 
-  <a href="documentation/tests/samsungs10_01.JPG"><img src="documentation/tests/samsungs10_01.JPG" alt="samsung galaxy s10+ test index.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/samsungs10_02.JPG"><img src="documentation/tests/samsungs10_02.JPG" alt="samsung galaxy s10+ test gallery.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/samsungs10_03.JPG"><img src="documentation/tests/samsungs10_03.JPG" alt="samsung galaxy s10+ test contact.html" style="width: 200px;" target="_blank"></a>
+    ![samsung galaxy s10+ test index.html](documentation/tests/samsungs10_01.jpg)
+    ![samsung galaxy s10+ test gallery.html](documentation/tests/samsungs10_02.jpg)
+    ![samsung galaxy s10+ test contact.html](documentation/tests/samsungs10_03.jpg)
 
-  Huawei Media Pad T3
+  - Huawei Media Pad T3
 
-  <a href="documentation/tests/huaweit3_01.jpg"><img src="documentation/tests/huaweit3_01.jpg" alt="huawei media pad t3 test index.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/huaweit3_02.jpg"><img src="documentation/tests/huaweit3_02.jpg" alt="huawei media pad t3 test gallery.html" style="width: 200px;" target="_blank"></a>
-  <a href="documentation/tests/huaweit3_03.jpg"><img src="documentation/tests/huaweit3_03.jpg" alt="huawei media pad t3 test contact.html" style="width: 200px;" target="_blank"></a>
+    ![huawei mediapad t3 test index.html](documentation/tests/huaweit3_01.jpg)
+    ![huawei mediapad t3 test gallery.html](documentation/tests/huaweit3_02.jpg)
+    ![huawei mediapad t3 test contact.html](documentation/tests/huaweit3_03.jpg)
 
 * The website was tested on desktop and laptop computers on a variety of screen sizes using device toolbar option in Google Chrome developer tools.
 
