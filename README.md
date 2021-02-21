@@ -106,11 +106,14 @@ Autoprefixer was used to add prefixes to CSS properties which are not supported 
 
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* HTML Code Test
+* HTML Code Test Results:
+
   - [index.html](documentation/tests/w3c_index.JPG)
   - [gallery.html](documentation/tests/w3c_gallery.JPG)
   - [contact.html](documentation/tests/w3c_contact.JPG)
-* CSS Code Test
+
+* CSS Code Test Results:
+
   - [CSS](documentation/tests/w3c_css.JPG)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -136,7 +139,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 * As a First Time Visitor, I want to find out more about the company and also I want to locate their social media links to see their followings and to determine how trusted and known they are.
   * 'Contact' page of the website provides the user with all relevant information about the company and it's owner Betty Miller in 'About Us' section.
-  * In the footer area throughout the website there are icons linking to company's profiles on various social media accounts. Links are opening in new tabs with intention of keeping user on our website after checking social media sites.
+  * In the footer area throughout the website there are icons linking to  various social media websites. Links are opening in new tabs with intention of keeping user on our website after checking social media sites. As this is only imagionary company, it's social media profiles do not exist so links are bringing user to the main page of the site.
 
 #### 2. Returning Visitor Goals
 
@@ -145,13 +148,13 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 * As a Returning Visitor, I want to find the best way to get in contact with the the company with any enquiries I may have.
   * On every page in the website there is a call to action button which invites the user to enquire about products. Click on this button will redirect the user directly to contact form.
-  * On the navigation bar  throughout the website there is a link to 'Contact' page. There user can fill out the provided form and send the message directly to the company email. Alternatively user can contact the company via one of the social media links provided in the footer.
-  * The footer contains links to the company's Facebook, Instagram, Pinterest and Youtube profiles as well as the email link. Each link will be opened in new tab to ensure that user can easily get back to the website. Email link will open default email app and autofill email address in to recepient field.
+  * On the navigation bar throughout the website there is a link to 'Contact' page. There user can fill out the provided form and send the enquiry by pressing submit button. Alternatively user can click on one of the social media links provided in the footer.
+  * The footer contains links to the Facebook, Instagram, Pinterest and Youtube websites as well as the email link. Each link will be opened in new tab to ensure that user can easily get back to the website. Email link will open default email app and autofill email address in to recepient field.
 
 #### 3. Frequent User Goals
 
 * As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-  * On 'Contact' page there is a link which asks user to sign up to the newsletter.
+  * As part of the contact form in 'Contact' page there is a checkbox which asks user to sign up to the newsletter.
 
 ### Further Testing
 
@@ -169,7 +172,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
     ![lighthouse test gallery.html mobile](documentation/tests/lh_mobile_gallery.jpg)
     ![lighthouse test contact.html mobile](documentation/tests/lh_mobile_contact.jpg)
 
-* The website was tested on [Google Chrome](documentation/tests/browser_chrome.JPG), [Internet Explorer](documentation/tests/browser_ie.JPG), [Microsoft Edge](documentation/tests/browser_edge.JPG), [Mozilla Firefox](documentation/tests/browser_chrome.JPG) and [Opera](documentation/tests/browser_opera.JPG) browsers.
+* The website was tested on [Google Chrome](documentation/tests/browser_chrome.JPG), [Internet Explorer](documentation/tests/browser_ie.JPG), [Microsoft Edge](documentation/tests/browser_edge.JPG), [Mozilla Firefox](documentation/tests/browser_firefox.JPG) and [Opera](documentation/tests/browser_opera.JPG) browsers.
 
 * The website was viewed on a variety of devices such as iPhone7, iPhone XR, Samsung Galaxy S10+ and Huawei Media Pad T3.
 
@@ -207,12 +210,15 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 * Internet Explorer v1607
   - content boxes on index.html not centered
-  - horizontal rules not showing
+  - horizontal rules not showing throughout the website
+  - checkbox in contact form has background color above and below the boxes
+  - smooth scrolling effect does not work throughout the website
 * Mozilla Firefox v85.0.2
   - content boxes on index.html not centered
 * Samsung Galaxy S10+
   - content of the page is a bit wider probably due to curved edges of the screen
-* links to submit the contact form and to sign up for newsletter do not have any functionality yet
+* When submitting the contact form data is only sent to https://formdump.codeinstitute.net/
+* After submitting form does not refresh automatically so 'reset' button is provided
 
 #### Previous bugs (fixed)
 
@@ -283,7 +289,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Readme
 
-* Code Institute's readme file template was used to create readme file for this website. Content of original readme file was modified by developer to match properties of this website.
+* Code Institute's readme file template was used to create readme file for this website. Content of original readme file was heavily odified by developer to match properties of this website. Exception is 'Deployment' section which is the same as none of the steps changed.
 
 ### Acknowledgements
 
