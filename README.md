@@ -289,7 +289,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Readme
 
-* Code Institute's readme file template was used to create readme file for this website. Content of original readme file was heavily odified by developer to match properties of this website. Exception is 'Deployment' section which is the same as none of the steps changed.
+* Code Institute's readme file template was used to create readme file for this website. Content of original readme file was heavily modified by developer to match properties of this website. Exception is 'Deployment' section which is the same as none of the steps changed.
 
 ### Acknowledgements
 
