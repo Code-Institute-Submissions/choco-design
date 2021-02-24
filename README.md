@@ -125,6 +125,8 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
   * On the left side of the banner there is a welcoming title with brief marketing text which tells main purpose of website and purpose of every page. *(On mobile and tablet version title section is above banner)*
   * Below banner on the main page there is main content area which contains more details on types of business that owner of the company identified as key partners.
 
+    -  [#1 Example of testing First Time Visitor Goals](documentation/tests/goal_1-1.jpg)
+
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
   * The site has been designed to be responsive on mobile, tablet and desktop sizes. At the top of each page there is a clean navigation bar. Each link clearly describes to which page user will be redirected.
   * Layout of the website is consistent with navigation bar, banner section, content section and footer on every page.
@@ -132,29 +134,53 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
   * On gallery page in desktop view there are thumbnail images that act as links to each gallery podsection.
   * At the end of each gallery podsection in desktop view there is a link which brings user back to the main gallery menu.
 
+    -  [#2 Example of testing First Time Visitor Goals](documentation/tests/goal_2-1.jpg)
+
+    -  [#3 Example of testing First Time Visitor Goals](documentation/tests/goal_2-2.jpg)
+
+    -  [#4 Example of testing First Time Visitor Goals](documentation/tests/goal_2-3.jpg)
+
 * As a First Time Visitor, I want to find out more about the products which are for sale.
   * On main gallery page products are organized in categories with clear text description for every podsection.
   * In desktop view user has the option to click on image thumbnails to access the gallery with more images of the same product type.
   * In mobile and tablet views there are no thumbnail links, and in mobile version there are only two photos per each section.
 
+    -  [#5 Example of testing First Time Visitor Goals](documentation/tests/goal_3-1.jpg)
+
+    -  [#6 Example of testing First Time Visitor Goals](documentation/tests/goal_3-2.jpg)
+
+    -  [#7 Example of testing First Time Visitor Goals](documentation/tests/goal_3-3.jpg)
+
 * As a First Time Visitor, I want to find out more about the company and also I want to locate their social media links to see their followings and to determine how trusted and known they are.
   * 'Contact' page of the website provides the user with all relevant information about the company and it's owner Betty Miller in 'About Us' section.
   * In the footer area throughout the website there are icons linking to  various social media websites. Links are opening in new tabs with intention of keeping user on our website after checking social media sites. As this is only imagionary company, it's social media profiles do not exist so links are bringing user to the main page of the site.
+
+    -  [#8 Example of testing First Time Visitor Goals](documentation/tests/goal_4-1.jpg)
+
+    -  [#9 Example of testing First Time Visitor Goals](documentation/tests/goal_4-2.jpg)
 
 #### 2. Returning Visitor Goals
 
 * As a Returning Visitor, I want to find photo updated gallery with all products offered by company.
   * Gallery section has 'new' badge feature added to photos to clearly show which products are newest in company's portfolio.
+ 
+    -  [#1 Example of testing Returning Visitor Goals](documentation/tests/goal_5-1.jpg)
 
 * As a Returning Visitor, I want to find the best way to get in contact with the the company with any enquiries I may have.
   * On every page in the website there is a call to action button which invites the user to enquire about products. Click on this button will redirect the user directly to contact form.
   * On the navigation bar throughout the website there is a link to 'Contact' page. There user can fill out the provided form and send the enquiry by pressing submit button. Alternatively user can click on one of the social media links provided in the footer.
   * The footer contains links to the Facebook, Instagram, Pinterest and Youtube websites as well as the email link. Each link will be opened in new tab to ensure that user can easily get back to the website. Email link will open default email app and autofill email address in to recepient field.
 
+    -  [#2 Example of testing Returning Visitor Goals](documentation/tests/goal_6-1.jpg)
+
+    -  [#3 Example of testing Returning Visitor Goals](documentation/tests/goal_6-2.jpg)
+
 #### 3. Frequent User Goals
 
 * As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
   * As part of the contact form in 'Contact' page there is a checkbox which asks user to sign up to the newsletter.
+  
+    -  [#1 Example of testing Frequent User Goals](documentation/tests/goal_7-1.jpg)
 
 ### Further Testing
 
@@ -217,8 +243,6 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
   - content boxes on index.html not centered
 * Samsung Galaxy S10+
   - content of the page is a bit wider probably due to curved edges of the screen
-* When submitting the contact form data is only sent to https://formdump.codeinstitute.net/
-* After submitting form does not refresh automatically so 'reset' button is provided
 
 #### Previous bugs (fixed)
 
